@@ -13,3 +13,4 @@ public interface StudentBean05Repository extends JpaRepository<StudentBean05,Lon
 
 
 }
+

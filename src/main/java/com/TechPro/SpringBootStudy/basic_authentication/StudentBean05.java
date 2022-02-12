@@ -1,7 +1,5 @@
 package com.TechPro.SpringBootStudy.basic_authentication;
 
-
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;

@@ -8,9 +8,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 public class PasswordConfig {
     @Bean
-    public PasswordEncoder passSifrele(){ //return type obj olan bir method. Bu method pasword encode ettigi
-                                        // icin password olan class'a coll edilmeli
-
-        return new BCryptPasswordEncoder(10); // crypto guvenlik seviyesi genelde 10-8 kullanilir
+    public PasswordEncoder passSifrele(){//return type obj olam bir method .Bumethod password encode ettiği için password olan class'a call edilmeli
+        return new BCryptPasswordEncoder(10);//crypto guvenlik seviyesi genelde 10-8 kullnılır
     }
 }
